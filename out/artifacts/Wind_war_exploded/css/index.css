@@ -1,0 +1,58 @@
+.gameBoard{
+	position: absolute;
+	top:30px;
+	height: 700px;
+	width: 1243px;
+	background: #bbbbaa;
+	border: 3px solid black;
+}
+
+.player{
+	width: 200px;
+	height: 200px;
+	border: 2px solid red;
+	padding: 15px;
+	border-radius: 150px;
+}
+.pos1{
+	position: absolute;
+}
+.pos2{
+	position: absolute;
+	left: 260px;
+}
+.pos3{
+	position: absolute;
+	left: 510px;
+}
+.pos4{
+	position: absolute;
+	left: 760px;
+}
+.pos5{
+	position: absolute;
+	left: 1010px;
+}
+.pos6{
+	position: absolute;
+	/*left: 1010px;*/
+	top: 255px;
+}
+.pos7{
+	position: absolute;
+	left: 1010px;
+	top: 255px;
+}
+.pos8{
+	position: absolute;
+	left: 200px;
+	top: 455px;
+}
+.mainplayer{
+	position: absolute;
+	left: 440px;
+	top: 455px;
+	width: 600px;
+	height: 240px;
+	border: 2px solid red;
+}
