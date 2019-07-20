@@ -11,7 +11,7 @@ public class DbFactory {
         Connection connection = tl.get();
         if(connection == null || connection.isClosed()){
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/","root","heimeiGUI123");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/","root","123456");
             tl.set(connection);
         }
         return connection;
